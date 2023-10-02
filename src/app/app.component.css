@@ -1,0 +1,13 @@
+table {
+    border-color: black;
+    border-width: 5px;
+}
+
+table tbody tr td,
+table tbody tr th {
+    /* tbody, tr ve td öğeleri için özel stil kuralları burada belirlenebilir */
+    /* Örneğin: */
+    padding: 10px; /* Hücre içeriğine boşluk eklemek */
+    border: 1px solid #ddd; /* Kenarlık ekleme */
+    text-align: left; /* Metni sola hizalama */
+}
